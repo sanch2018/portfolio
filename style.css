@@ -1,0 +1,92 @@
+*{
+  margin:0;
+  padding:0;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: #ebeced;
+}
+
+hr{
+  margin-bottom: 10px;
+}
+
+.viewport {
+  background-size: cover;
+  overflow: hidden;
+  background-image: url("bwkeyboard.jpg");
+  background-repeat: no-repeat;
+  height: 40vh;
+  background-color: #ebeced .2;
+}
+
+.header h1{
+  text-align: left;
+  color: whitesmoke;
+  padding-top: 35px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+
+}
+
+h2 {
+  padding-top: 15px;
+  padding-bottom: 7px;
+}
+
+.about-me {
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+.my-skills {
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+.my-projects {
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.row::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.my-projects img {
+  border: 1px black;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.my-education {
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+.contact-info{
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+.contact-info h3 {
+  padding: 15px;
+}
+
